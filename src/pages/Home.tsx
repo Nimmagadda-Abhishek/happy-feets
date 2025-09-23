@@ -49,49 +49,49 @@ const Home = () => {
 
  const experiences = [
   {
-    title: "Corporate Day Outing Package",
+    title: "Corporate Day Outing",
     description: "Customized day packages for corporate teams including meals, refreshments, accommodation (on request), team building, entertainment, sightseeing, branding, photography, awards night, and wellness sessions.",
     image: beachImage,
     link: "/enquiry"
   },
   {
-    title: "Adventure & Activity Packages",
+    title: "Adventure & Activity",
     description: "Thrilling trekking and hiking tours, camping with bonfires, river rafting, water sports, and wildlife safari experiences.",
     image: mountainImage,
     link: "/enquiry"
   },
   {
-    title: "Cultural & Heritage Packages",
+    title: "Cultural & Heritage",
     description: "Immerse yourself in rich traditions with pilgrimage tours, historical monuments, heritage walks, festival specials, and city sightseeing packages.",
     image: culturalImage,
     link: "/enquiry"
   },
   {
-    title: "Family & Group Packages",
+    title: "Family & Group",
     description: "Perfect family vacations, group holiday discounts, school/college trips, and senior citizen-friendly tours designed for all ages.",
     image: familyImage,
     link: "/enquiry"
   },
   {
-    title: "Special Interest Packages",
+    title: "Special Interest",
     description: "Tailor-made experiences like honeymoon packages, destination weddings, photography tours, and food & culinary adventures.",
     image: cruiseImage,
     link: "/enquiry"
   },
   {
-    title: "International Packages",
+    title: "International",
     description: "Explore the world with tours across Southeast Asia, Europe, Dubai & Middle East, Maldives, and Mauritius getaways.",
     image: safariImage,
     link: "/enquiry"
   },
   {
-    title: "Exclusive Kabini Packages (Karnataka)",
+    title: "Exclusive Kabini (Karnataka)",
     description: "Stay at jungle lodges or resorts with safaris, nature walks, campfires, recreational activities, and family-friendly experiences.",
     image: wellnessImage,
     link: "/enquiry"
   },
   {
-    title: "Boat House Package - Kerala",
+    title: "Boat House - Kerala",
     description: "Experience Kerala backwaters with boat house stays, traditional meals, cruising, sunset views, fishing, and onboard recreation.",
     image: cityImage,
     link: "/enquiry"
@@ -339,7 +339,7 @@ const Home = () => {
                     asChild
                   >
                     <Link to={experience.link}>
-                      Click to Get Offer
+                      Click to know more
                       <ArrowRight className="w-4 h-4" />
                     </Link>
                   </Button>
