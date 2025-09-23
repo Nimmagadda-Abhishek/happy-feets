@@ -104,23 +104,7 @@ const Enquiry = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Plan Your Perfect Journey
-            </h1>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Tell us about your dream vacation, and we'll create a personalized itinerary that exceeds your expectations.
-            </p>
-            <div className="mt-8">
-              <Button
-                variant="hero"
-                size="lg"
-                onClick={() => window.open("https://matrimonyybucket.s3.ap-south-1.amazonaws.com/pdf-uploads/a20d1e46-4145-4ed6-baf7-e0d7c62f9977_A4%2BBroacher%2BFinal%2BDesign%2B9.8.2025-compressed%20%281%29%20%282%29.pdf", "_blank")}
-              >
-                Know More - View Brochure
-              </Button>
-            </div>
-          </div>
+         
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Contact Info Sidebar */}
